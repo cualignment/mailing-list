@@ -1,0 +1,4 @@
+# ignore all .csv files in the listserv directory
+listserv/*.csv
+listserv/*.txt
+
