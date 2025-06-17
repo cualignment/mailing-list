@@ -1,3 +1,3 @@
-# ignore all .txt and .csv
-*.txt
-*.csv
+# ignore all .txt and .csv in listserv folder
+listserv/*.txt
+listserv/*.csv
