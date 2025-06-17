@@ -1,4 +1,3 @@
-# add image
 ![alt text](https://raw.githubusercontent.com/cualignment/mailing-list/main/email_template_editor.png)
 
 # mailing-list
