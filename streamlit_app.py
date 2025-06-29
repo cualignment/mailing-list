@@ -159,7 +159,7 @@ def main():
         # Email basics section
         with st.expander("📝 Email Basics", expanded=True):
             st.session_state.email_title = st.text_input("Email Title", value=st.session_state.email_title)
-            st.session_state.email_greeting = st.text_area("Greeting", value=st.session_state.email_greeting, height=60)
+            st.session_state.email_greeting = st.text_area("Greeting", value=st.session_state.email_greeting, height=68)
         
         # Sections management
         st.subheader("📋 Email Sections")
