@@ -225,7 +225,7 @@ def main():
                                                    key=f"list_title_{section['id']}")
                     section['content'] = st.text_area(f"List Introduction (optional)", 
                                                      value=section.get('content', ''), 
-                                                     height=60,
+                                                     height=68,
                                                      key=f"list_intro_{section['id']}")
                     
                     # List items management
@@ -255,7 +255,7 @@ def main():
         
         # Signature section
         with st.expander("✍️ Email Signature", expanded=True):
-            st.session_state.email_signature = st.text_area("Signature", value=st.session_state.email_signature, height=60)
+            st.session_state.email_signature = st.text_area("Signature", value=st.session_state.email_signature, height=68)
         
         # Generate button
         if st.button("🚀 Generate Email", type="primary", use_container_width=True):
